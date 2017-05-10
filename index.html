@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	
+		<meta charset = "UTF-8">
+		<title>Rules equal to!</title>
+		<script language = "javascript" type = "text/javascript" src = "rules.js"></script>
+	</head>
+	
+	<body>
+	
+		<center>
+		
+			<h2>Argument Types</h2>
+			
+			<b>A.</b> string:
+			<input type = "text" id = "str" value = "HelloWorld">
+			
+			
+			<br>
+			<br>
+			<b>B.</b> number:
+			<input type = "number" id = "num" value = "123">
+			
+			
+			<br>
+			<br>
+			<b>C.</b> boolean:
+			<select id = "bool">
+			
+				<option>true</option>
+				<option>false</option>
+			
+			</select>
+			
+			
+			<br>
+			<br>
+			<b>D.</b> Non-date object:
+			<input type = "number" id = "obj" value = "123">
+			
+			
+			<br>
+			<br>
+			<b>E.</b> Date object:
+			<input type = "check" id = "date" value = "2017/05/10">
+			
+			<br>
+			<ul style = "display: inline-block;">
+			<li>Input for Date object has to be <br> "<b>yyyy/mm/tt</b>" without quotes e.g. 2017/05/10 </li>
+			</ul>
+			
+			
+			
+			
+			<h2>Equal To</h2>
+			
+			<button type = "button" onclick = "EqualTo()">Start</button>
+			
+			<select id = "testing">
+			
+				<option>A==A</option>
+				<option>A==B</option>
+				<option>A==C</option>
+				<option>A==D</option>
+				<option>A==E</option>
+				
+				<option>B==B</option>
+				<option>B==C</option>
+				<option>B==D</option>
+				<option>B==E</option>
+				
+				<option>C==C</option>
+				<option>C==D</option>
+				<option>C==E</option>
+				
+				<option>D==D</option>
+				<option>D==E</option>
+				
+				<option>E==E</option>
+			
+			</select>
+			
+			<br>
+			<br>
+			<ul style = "display:inline-block;">
+				<li id = "result"></li>
+			</ul>
+			
+		<br>
+		<br>	
+		For more explanation please visit - 
+		<a href = "https://github.com/Incrementis/Javascript-rules-for-equal-to-operator-/wiki"> Rules for equal to operator Wiki
+		
+		</center>
+	
+	
+	</body>
+	
+	
+</html>
